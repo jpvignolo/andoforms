@@ -1,0 +1,52 @@
+{
+   "questions":[
+    	{
+         "label":"Bonjour, êtes vous ?",
+         "type":"single",
+         "answers":[
+            {
+               "label":"employeur",
+               "questions":[
+               		{
+               			"label":"Dans quel secteur voulez vous embaucher ?",
+               			"type":"multi",
+               			"answers":[
+               				{"label":"Restauration","questions":[]},
+               				{"label":"Bar de nuit","questions":[]},
+               				{"label":"Hotellerie","questions":[]}
+               			]
+               		}
+               ]
+            },
+            {
+               "label":"travailleur",
+               "questions":[
+               		{
+               			"label":"Dans quel secteur voulez vous travailler ?",
+               			"type":"multi",
+               			"answers":[
+               				{"label":"Restauration","questions":[]},
+               				{"label":"Bar de nuit","questions":[]},
+               				{"label":"Hotellerie","questions":[]}
+               			]
+               		},
+               		{
+               			"label":"Combien d'années d'expérience avez vous ?",
+               			"type":"multi",
+               			"answers":[
+               				{"label":"Moins d'un an","questions":[]},
+               				{"label":"entre 1 et 3 ans","questions":[]},
+               				{"label":"Plus de 3 ans","questions":[]}
+               			]
+               		}
+               ]
+            }
+         	]
+      	},
+		{
+			"label":"comment vous appelez vous ?",
+			"type":"free",
+			"answers":[]
+		}
+   ]
+}
