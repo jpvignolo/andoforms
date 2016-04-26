@@ -1,6 +1,7 @@
 {
    "questions":[
     	{
+         "id":"1",
          "label":"Bonjour, êtes vous ?",
          "type":"single",
          "answers":[
@@ -8,6 +9,7 @@
                "label":"employeur",
                "questions":[
                		{
+         				"id":"2",
                			"label":"Dans quel secteur voulez vous embaucher ?",
                			"type":"multi",
                			"answers":[
@@ -22,6 +24,7 @@
                "label":"travailleur",
                "questions":[
                		{
+        				"id":"3",
                			"label":"Dans quel secteur voulez vous travailler ?",
                			"type":"multi",
                			"answers":[
@@ -31,6 +34,7 @@
                			]
                		},
                		{
+        				"id":"4",
                			"label":"Combien d'années d'expérience avez vous ?",
                			"type":"multi",
                			"answers":[
@@ -44,6 +48,7 @@
          	]
       	},
 		{
+        	"id":"5",
 			"label":"comment vous appelez vous ?",
 			"type":"free",
 			"answers":[]
